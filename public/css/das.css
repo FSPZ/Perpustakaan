@@ -1,0 +1,140 @@
+#body-row {
+    margin:0;
+    padding: 0;
+}
+.row h2{
+    font-family: Georgia rgb(194, 41, 41);
+}
+#sidebar-container {
+    width: 250px;
+    height: 85vh;
+    background-color: rgb(27, 26, 37);
+
+}
+.sidebar-expanded {
+    width: 230px;
+    height: 545px;
+    overflow-y: scroll;
+}
+.sidebar-collapsed {
+    width: 60px;
+}
+#sidebar-container .list-group a {
+    height: 55px;
+    color: rgb(250, 254, 255);
+    font-family:Georgia;
+    font-size: 15px;
+}
+
+
+#sidebar-container .list-group .sidebar-submenu a {
+    height: 45px;
+    padding-left: 30px;
+
+
+}
+.sidebar-submenu {
+    font-size: 0.9rem;
+}
+.sidebar-separator-title {
+    background-color: rgb(241, 225, 225);
+    height: 35px;
+}
+.sidebar-separator-title small{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sidebar-separator {
+    background-color: rgb(221, 52, 52);
+    height: 25px;
+}
+.logo-separator {
+    background-color: rgb(95, 7, 7);
+    height: 60px;
+}
+#sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
+  content: " \f0d7";
+  font-family: Georgia;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
+
+#sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
+  content: " \f0da";
+  font-family: Georgia;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
+
+.logo img{
+    width: 120px;
+    height: 70px;
+    margin-top: 10px;
+    border-radius: 50px;
+    margin-left: -40px;
+
+}
+.container{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.pull-right{
+    margin-left: 0;
+    margin-top: 30px;
+}
+.logop img {
+    width: 98px;
+    height: 81px;
+    margin-top: -26px;
+    margin-block-end: -25px;
+    border-radius: 30px;
+
+}
+.warnagelap {
+    color: rgb(51,44,85);
+    font-family: 'Roboto Mono', monospace;
+}
+.kolom{
+    margin-left:0;
+    margin-top: 0;
+    padding: 0;
+    width: auto;
+    height: 85vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+.icon{
+    margin-left: auto;
+}
+.lo img {
+    margin-left: 10px;
+    margin-top: 2px;
+    height: 50px;
+    width: 50px;
+    border-radius: 120px;
+    margin-block-end: 2px;
+}
+.lo {
+    background-color: rgb(129, 24, 24);
+    font-size: 20px;
+    color: rgb(237, 237, 238);
+    font-family: Georgia;
+}
+
+.font h2{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.font strong{
+    font-size: 35px;
+}
+.home h1{
+    color: rgb(39, 28, 28);
+    text-decoration: line-through;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
