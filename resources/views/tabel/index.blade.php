@@ -34,8 +34,7 @@
         <th>Jenis Modul</th>
         <th>Lokasi Modul</th>
         <th>Download</th>
-        <th>Coba 1</th>
-        <th>Coba 2</th>
+        <th>File Elektronik</th>
     </tr>
     @foreach ($tabel as $i => $a)
     <tr>
@@ -52,17 +51,17 @@
                         DOWNLOAD
                    </i></button>
             </a>
-            </div>
-            <a href="{{ $a->file_elektronik}}" download="{{$a->fil_elektronik}}">
+            </div> -->
+            <a href="assets/{{ $a->file_elektronik}}" download="{{$a->fil_elektronik}}">
                 <button type="button" class="btn btn-primary">
                     <i class="glyphicon glyphicon-download">
                         Download
                     </i>
                 </button>
-            </a> -->
+            </a>
         </td>
         <td>{{ url($a->file_elektronik) }}</td>
-        <td>{{ url('/'.$a->file_elektronik) }}</td>
+        <!-- <td>{{ url('/'.$a->file_elektronik) }}</td> -->
     </tr>
     @endforeach
 </table>

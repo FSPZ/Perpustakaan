@@ -58,12 +58,10 @@ public function search(Request $request)
     // 	return response()->download($myFile);
     // }
 
-      public function downfunc($request){
-        $url = Storage::url("public/assets/$filenameSimpan");
+      public function downfunc(){
 
           $downloads=DB::table('bukus')->get();
-          return Storage::download("$url");
-        //   return view('welcome',compact('downloads'));
+          return view('welcome',compact('downloads'));
         // dd($url);
       }
 
